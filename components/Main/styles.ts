@@ -1,5 +1,13 @@
 import styled, { css } from 'styled-components';
 
+import {
+    ArrowLeft,
+    Home,
+    Search,
+    Notifications,
+    Email,
+  } from '../../styles/icons';
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -70,7 +78,7 @@ const iconCSS = css`
     fill: var(--twitter);
   }
 `;
-export const BackIcon = styled.div`
+export const BackIcon = styled(ArrowLeft)`
   width: 24px;
   height: 24px;
   fill: var(--twitter);
