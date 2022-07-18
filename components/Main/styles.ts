@@ -1,12 +1,11 @@
 import styled, { css } from 'styled-components';
-
 import {
-    ArrowLeft,
-    Home,
-    Search,
-    Notifications,
-    Email,
-  } from '../../styles/icons';
+  ArrowLeft,
+  Home,
+  Search,
+  Notifications,
+  Email,
+} from '../../styles/icons';
 
 export const Container = styled.div`
   display: flex;
@@ -37,6 +36,12 @@ export const Header = styled.div`
       background: var(--twitter-dark-hover);
     }
   }
+`;
+
+export const BackIcon = styled(ArrowLeft)`
+  width: 24px;
+  height: 24px;
+  fill: var(--twitter);
 `;
 
 export const ProfileInfo = styled.div`
@@ -75,25 +80,19 @@ const iconCSS = css`
   fill: var(--gray);
   &:hover,
   &.active {
-    fill: var(--twitter);
+    fill: #33A1F2;
   }
 `;
-export const BackIcon = styled(ArrowLeft)`
-  width: 24px;
-  height: 24px;
-  fill: var(--twitter);
-`;
 
-
-export const HomeIcon = styled.div`
+export const HomeIcon = styled(Home)`
   ${iconCSS}
 `;
-export const SearchIcon = styled.div`
+export const SearchIcon = styled(Search)`
   ${iconCSS}
 `;
-export const BellIcon = styled.div`
+export const BellIcon = styled(Notifications)`
   ${iconCSS}
 `;
-export const EmailIcon = styled.div`
+export const EmailIcon = styled(Email)`
   ${iconCSS}
 `;

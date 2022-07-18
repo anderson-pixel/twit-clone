@@ -1,18 +1,18 @@
 import React from 'react';
 
 import {
-    Container,
-    Header,
-    BackIcon,
-    ProfileInfo,
-    BottomMenu,
-    HomeIcon,
-    SearchIcon,
-    BellIcon,
-    EmailIcon,
+  Container,
+  Header,
+  BackIcon,
+  ProfileInfo,
+  BottomMenu,
+  HomeIcon,
+  SearchIcon,
+  BellIcon,
+  EmailIcon,
 } from './styles';
 
-const Main: React.FC = () => {
+const Main = () => {
   return (
     <Container>
       <Header>
@@ -21,8 +21,8 @@ const Main: React.FC = () => {
         </button>
 
         <ProfileInfo>
-          <strong>lorem</strong>
-          <span>lorem</span>
+          <strong>uhkukhuk</strong>
+          <span>6kijl</span>
         </ProfileInfo>
       </Header>
 
@@ -32,6 +32,7 @@ const Main: React.FC = () => {
         <BellIcon />
         <EmailIcon />
       </BottomMenu>
+
     </Container>
   );
 };
