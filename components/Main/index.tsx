@@ -1,4 +1,6 @@
 import React from 'react';
+import { Feed } from 'styled-icons/material-outlined';
+import ProfilePage from '../ProfilePage';
 
 import {
   Container,
@@ -33,6 +35,7 @@ const Main = () => {
         <EmailIcon />
       </BottomMenu>
 
+      <ProfilePage/>
     </Container>
   );
 };

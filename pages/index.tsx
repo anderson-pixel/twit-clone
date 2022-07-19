@@ -4,6 +4,9 @@ import Image from 'next/image'
 import Main from '../components/Main'
 import Layout from '../components/Layout'
 import MenuBar from '../components/MenuBar'
+import Feed from '../components/Feed'
+import ProfilePage from '../components/ProfilePage'
+import Tweet from '../components/Tweet'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +14,7 @@ const Home: NextPage = () => {
     <Layout>
     <MenuBar/>
     <Main/>
+    <Feed/>
     </Layout>
     </div>
   )

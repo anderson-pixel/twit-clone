@@ -3,7 +3,6 @@ import React from 'react';
 import {
   Container,
   Retweeted,
-  RocketseatIcon,
   Body,
   Avatar,
   Content,
@@ -14,7 +13,6 @@ import {
   Icons,
   Status,
   CommentIcon,
-  RetweetIcon,
   LikeIcon,
 } from './styles';
 
@@ -22,7 +20,6 @@ const Tweet: React.FC = () => {
   return (
     <Container>
       <Retweeted>
-        <RocketseatIcon />
         Você retweetou
       </Retweeted>
 
@@ -48,7 +45,6 @@ const Tweet: React.FC = () => {
               18
             </Status>
             <Status>
-              <RetweetIcon />
               18
             </Status>
             <Status>
