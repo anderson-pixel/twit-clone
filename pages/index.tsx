@@ -7,6 +7,7 @@ import MenuBar from '../components/MenuBar'
 import Feed from '../components/Feed'
 import ProfilePage from '../components/ProfilePage'
 import Tweet from '../components/Tweet'
+import SideBar from '../components/SideBar'
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
     <Layout>
     <MenuBar/>
     <Main/>
-    <Feed/>
+    <SideBar/>
     </Layout>
     </div>
   )

@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 import { Container, Avatar, Info, FollowButton } from './styles';
 
-interface Props {
-  name: string;
-  nickname: string;
+type Props = {
+    name: string;
+    nickname: string;
 }
 
-const FollowList: React.FC<Props> = ({ name, nickname }) => {
+const FollowList: FC<Props> = ({ name, nickname }) => {
   return (
     <Container>
       <div>
@@ -19,7 +19,7 @@ const FollowList: React.FC<Props> = ({ name, nickname }) => {
         </Info>
       </div>
 
-      <FollowButton outlined>Seguir</FollowButton>
+      <FollowButton outlined>Follow</FollowButton>
     </Container>
   );
 };

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Feed } from 'styled-icons/material-outlined';
+import FollowList from '../FollowList';
 import ProfilePage from '../ProfilePage';
+import Tweet from '../Tweet';
 
 import {
   Container,
@@ -34,8 +36,10 @@ const Main = () => {
         <BellIcon />
         <EmailIcon />
       </BottomMenu>
-
       <ProfilePage/>
+      <Tweet/>
+      <Tweet/>
+      <FollowList name='abudab' nickname='abudeb' />
     </Container>
   );
 };

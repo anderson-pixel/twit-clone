@@ -19,7 +19,7 @@ const ProfilePage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        <EditButton outlined>Editar profile</EditButton>
+        <EditButton outlined>Edit profile</EditButton>
         <h1>lorem</h1>
         <h2>lorem</h2>
 
