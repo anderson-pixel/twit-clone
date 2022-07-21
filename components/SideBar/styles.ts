@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { Search } from '../../styles/icons';
+
 export const Container = styled.div`
   display: none;
   @media (min-width: 1000px) {
@@ -45,7 +47,7 @@ export const SearchInput = styled.input`
   }
 `;
 
-export const SearchIcon = styled.div`
+export const SearchIcon = styled(Search)`
   width: 27px;
   height: 27px;
   fill: var(--gray);
