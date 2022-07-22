@@ -4,6 +4,8 @@ import {
   Home,
   Notifications,
   Email,
+  CardChecklist,
+  SearchAlt,
   FavoriteBorder,
   Person,
   ExitToApp,
@@ -115,6 +117,14 @@ export const FavoriteIcon = styled(FavoriteBorder)`
 export const ProfileIcon = styled(Person)`
   ${iconCSS}
 `;
+export const ListIcon = styled(CardChecklist)`
+  ${iconCSS}
+`;
+export const SearchIcon = styled(SearchAlt)`
+  ${iconCSS}
+`;
+
+
 
 export const Botside = styled.div`
   margin-top: 20px;

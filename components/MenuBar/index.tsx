@@ -12,9 +12,12 @@ import {
   EmailIcon,
   FavoriteIcon,
   ProfileIcon,
+  ListIcon,
+  SearchIcon,
   Botside,
   Avatar,
   ProfileData,
+  
   ExitIcon,
 } from './styles';
 
@@ -26,31 +29,41 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <HomeIcon />
-          <span>lorem</span>
+          <span>Home</span>
+        </MenuButton>
+
+        <MenuButton className="active">
+          <SearchIcon />
+          <span>Explore</span>
         </MenuButton>
 
         <MenuButton>
           <BellIcon />
-          <span>lorem</span>
+          <span>Notifications</span>
         </MenuButton>
 
         <MenuButton>
           <EmailIcon />
-          <span>lorem</span>
+          <span>Messages</span>
         </MenuButton>
 
         <MenuButton>
           <FavoriteIcon />
-          <span>lorem</span>
+          <span>Bookmarks</span>
+        </MenuButton>
+
+        <MenuButton>
+          <ListIcon />
+          <span>Lists</span>
         </MenuButton>
 
         <MenuButton className="active">
           <ProfileIcon />
-          <span>lorem</span>
+          <span>Profile</span>
         </MenuButton>
 
         <Button>
-          <span>lorem</span>
+          <span>Tweet</span>
         </Button>
       </Topside>
 
