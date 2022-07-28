@@ -25,7 +25,6 @@ const MenuBar: React.FC = () => {
   return (
     <Container>
       <Topside>
-        <Logo />
 
         <MenuButton>
           <HomeIcon />
