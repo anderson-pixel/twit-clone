@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Container } from './styles';
 
-const News: React.FC = () => {
+const News = () => {
   return (
     <Container>
-      <span>Assuntos do momento no Brasil</span>
-      <strong>Bootcamp da Rocketseat</strong>
+      <span>lorem</span>
+      <strong>lorem</strong>
     </Container>
   );
 };

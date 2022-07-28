@@ -17,45 +17,40 @@ const SideBar: React.FC = () => {
   return (
     <Container>
       <SearchWrapper>
-        <SearchInput placeholder="Search Twitter" />
+        <SearchInput placeholder="Buscar no Twitter" />
         <SearchIcon />
       </SearchWrapper>
 
       <StickyBox>
         <Body>
-
-        <List
-
-
-title="What's happening"
-elements={[
-  <News />,
-  <News />,
-  <News />,
-  <News />,
-  <News />,
-  <News />,
-  <News />,
-  <News />,
-  <News />,
-]}
-
+          <List
+            title="Talvez você curta"
+            elements={[
+              <FollowSuggestion
+                name="Luiz Batanero"
+                nickname="@luizbatanero"
+              />,
+              <FollowSuggestion name="Luke Morales" nickname="@lukemorales" />,
+              <FollowSuggestion
+                name="Camila Magalhães"
+                nickname="@camilaamgl"
+              />,
+            ]}
           />
           <List
-         title="Who to Follow"
-         elements={[
-           <FollowSuggestion
-             name="Luiz Batanero"
-             nickname="@luizbatanero"
-           />,
-           <FollowSuggestion name="Luke Morales" nickname="@lukemorales" />,
-           <FollowSuggestion
-             name="Camila Magalhães"
-             nickname="@camilaamgl"
-           />,
-         ]}
-       />
-
+            title="O que está acontecendo"
+            elements={[
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+            ]}
+          />
         </Body>
       </StickyBox>
     </Container>
